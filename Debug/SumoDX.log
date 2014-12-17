@@ -1,0 +1,53 @@
+﻿Build started 27-10-2014 16:11:45.
+     1>Project "G:\SumoDX-master\SumoDX.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"G:\SumoDX-master\\" /IDebug\ /I"G:\SumoDX-master\\" /I"Generated Files\\" /IDebug\ /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\SumoDX.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt SumoDX.cpp
+         SumoDX.cpp
+     1>g:\sumodx-master\sumodx.cpp(62): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>g:\sumodx-master\sumodx.cpp(281): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\sumodx-master\sumodx.cpp(294): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\sumodx-master\sumodx.cpp(305): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\sumodx-master\sumodx.cpp(332): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\sumodx-master\sumodx.cpp(334): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\sumodx-master\sumodx.cpp(358): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\sumodx-master\sumodx.cpp(371): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\sumodx-master\sumodx.cpp(421): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>g:\sumodx-master\sumodx.cpp(456): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\sumodx-master\sumodx.cpp(526): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\sumodx-master\sumodx.cpp(540): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\SumoDX-master\Debug\SumoDX\SumoDX.exe" /INCREMENTAL /NOLOGO d2d1.lib d3d11.lib dxgi.lib dwrite.lib dxguid.lib xaudio2.lib xinput.lib mfcore.lib mfplat.lib mfreadwrite.lib mfuuid.lib kernel32.lib /MANIFEST:NO /DEBUG /PDB:"G:\SumoDX-master\Debug\SumoDX\SumoDX.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /APPCONTAINER /WINMD:NO /WINMDFILE:"G:\SumoDX-master\Debug\SumoDX\SumoDX.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Debug\BossMesh.obj
+         Debug\BossBlock.obj
+         Debug\Bullet.obj
+         Debug\BulletMesh.obj
+         Debug\AISumoBlock.obj
+         Debug\Cylinder.obj
+         Debug\CylinderMesh.obj
+         Debug\MeshObject.obj
+         Debug\SumoMesh.obj
+         Debug\SumoBlock.obj
+         Debug\GameInfoOverlay.obj
+         Debug\BasicLoader.obj
+         Debug\BasicReaderWriter.obj
+         Debug\DDSTextureLoader.obj
+         Debug\PersistentState.obj
+         Debug\Camera.obj
+         Debug\GameObject.obj
+         Debug\GameTimer.obj
+         Debug\Material.obj
+         Debug\MoveLookController.obj
+         Debug\DirectXApp.obj
+         Debug\DirectXBase.obj
+         Debug\GameHud.obj
+         Debug\GameRenderer.obj
+         Debug\SumoDX.obj
+         Debug\pch.obj
+         SumoDX.vcxproj -> G:\SumoDX-master\Debug\SumoDX\SumoDX.exe
+     1>C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\AppxPackage\Microsoft.AppXPackage.Targets(1093,9): warning APPX0104: Certificate file 'SumoDX_TemporaryKey.pfx' not found.
+     1>C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\AppxPackage\Microsoft.AppXPackage.Targets(1093,9): warning APPX0102: A certificate with thumbprint 'B364B5DC6152C7CFB90C1D8E193EBB020CAE30A8' that is specified in the project cannot be found in the certificate store. Please specify a valid thumbprint in the project file.
+     1>C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\AppxPackage\Microsoft.AppXPackage.Targets(1093,9): warning APPX0107: The certificate specified is not valid for signing. For more information about valid certificates, see http://go.microsoft.com/fwlink/?LinkID=241478.
+     1>Done Building Project "G:\SumoDX-master\SumoDX.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:17.14

@@ -1,0 +1,94 @@
+﻿Build started 23-08-2014 01:05:09.
+     1>Project "G:\SumoDX-master\SumoDX.vcxproj" on node 2 (Build target(s)).
+     1>FxCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T ps_4_0_level_9_1 /Fo "G:\SumoDX-master\x64\Debug\SumoDX\PixelShader.cso" Shaders\PixelShader.hlsl 
+         compilation object save succeeded; see G:\SumoDX-master\x64\Debug\SumoDX\PixelShader.cso
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T ps_4_0_level_9_1 /Fo "G:\SumoDX-master\x64\Debug\SumoDX\PixelShaderFlat.cso" Shaders\PixelShaderFlat.hlsl 
+         compilation object save succeeded; see G:\SumoDX-master\x64\Debug\SumoDX\PixelShaderFlat.cso
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T vs_4_0_level_9_1 /Fo "G:\SumoDX-master\x64\Debug\SumoDX\VertexShader.cso" /Od /Zi Shaders\VertexShader.hlsl 
+         compilation object save succeeded; see G:\SumoDX-master\x64\Debug\SumoDX\VertexShader.cso
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T vs_4_0_level_9_1 /Fo "G:\SumoDX-master\x64\Debug\SumoDX\VertexShaderFlat.cso" /Od /Zi Shaders\VertexShaderFlat.hlsl 
+         compilation object save succeeded; see G:\SumoDX-master\x64\Debug\SumoDX\VertexShaderFlat.cso
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"G:\SumoDX-master\\" /Ix64\Debug\ /I"G:\SumoDX-master\\" /I"Generated Files\\" /Ix64\Debug\ /Zi /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"pch.h" /Fp"x64\Debug\SumoDX.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /errorReport:prompt pch.cpp
+         pch.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"G:\SumoDX-master\\" /Ix64\Debug\ /I"G:\SumoDX-master\\" /I"Generated Files\\" /Ix64\Debug\ /Zi /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"x64\Debug\SumoDX.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /errorReport:prompt Meshes\BossMesh.cpp GameObjects\BossBlock.cpp GameObjects\Bullet.cpp Meshes\BulletMesh.cpp GameObjects\AISumoBlock.cpp GameObjects\Cylinder.cpp Meshes\CylinderMesh.cpp Meshes\MeshObject.cpp Meshes\SumoMesh.cpp GameObjects\SumoBlock.cpp Rendering\GameInfoOverlay.cpp Utilities\BasicLoader.cpp Utilities\BasicReaderWriter.cpp Utilities\DDSTextureLoader.cpp Utilities\PersistentState.cpp GameObjects\Camera.cpp GameObjects\GameObject.cpp Utilities\GameTimer.cpp Rendering\Material.cpp Input\MoveLookController.cpp DirectXApp.cpp Rendering\DirectXBase.cpp Rendering\GameHud.cpp Rendering\GameRenderer.cpp SumoDX.cpp
+         BossMesh.cpp
+         BossBlock.cpp
+         Bullet.cpp
+         BulletMesh.cpp
+         AISumoBlock.cpp
+         Cylinder.cpp
+         CylinderMesh.cpp
+         MeshObject.cpp
+     1>GameObjects\AISumoBlock.cpp(45): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>GameObjects\AISumoBlock.cpp(55): warning C4244: 'argument' : conversion from 'GameConstants::Behavior' to 'float', possible loss of data
+         SumoMesh.cpp
+         SumoBlock.cpp
+         GameInfoOverlay.cpp
+         BasicLoader.cpp
+         BasicReaderWriter.cpp
+         DDSTextureLoader.cpp
+         PersistentState.cpp
+         Camera.cpp
+         GameObject.cpp
+         GameTimer.cpp
+         Material.cpp
+         MoveLookController.cpp
+         DirectXApp.cpp
+         DirectXBase.cpp
+         GameHud.cpp
+     1>g:\sumodx-master\SumoDX.h(117): warning C4267: 'return' : conversion from 'size_t' to 'unsigned short', possible loss of data (DirectXApp.cpp)
+     1>G:\SumoDX-master\SumoDX.h(117): warning C4267: 'return' : conversion from 'size_t' to 'unsigned short', possible loss of data (Input\MoveLookController.cpp)
+     1>G:\SumoDX-master\SumoDX.h(130): warning C4267: 'return' : conversion from 'size_t' to 'unsigned short', possible loss of data (Input\MoveLookController.cpp)
+     1>g:\sumodx-master\SumoDX.h(130): warning C4267: 'return' : conversion from 'size_t' to 'unsigned short', possible loss of data (DirectXApp.cpp)
+     1>G:\SumoDX-master\SumoDX.h(117): warning C4267: 'return' : conversion from 'size_t' to 'unsigned short', possible loss of data (Rendering\GameHud.cpp)
+     1>G:\SumoDX-master\SumoDX.h(130): warning C4267: 'return' : conversion from 'size_t' to 'unsigned short', possible loss of data (Rendering\GameHud.cpp)
+         GameRenderer.cpp
+         SumoDX.cpp
+     1>g:\sumodx-master\SumoDX.h(117): warning C4267: 'return' : conversion from 'size_t' to 'unsigned short', possible loss of data (SumoDX.cpp)
+     1>g:\sumodx-master\SumoDX.h(130): warning C4267: 'return' : conversion from 'size_t' to 'unsigned short', possible loss of data (SumoDX.cpp)
+     1>G:\SumoDX-master\SumoDX.h(117): warning C4267: 'return' : conversion from 'size_t' to 'unsigned short', possible loss of data (Rendering\GameRenderer.cpp)
+     1>G:\SumoDX-master\SumoDX.h(130): warning C4267: 'return' : conversion from 'size_t' to 'unsigned short', possible loss of data (Rendering\GameRenderer.cpp)
+     1>g:\sumodx-master\directxapp.cpp(628): warning C4715: '<lambda_c243e4040f93340a2feacf256cc21b5b>::operator()' : not all control paths return a value
+     1>SumoDX.cpp(61): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>SumoDX.cpp(416): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"G:\SumoDX-master\x64\Debug\SumoDX\SumoDX.exe" /INCREMENTAL /NOLOGO d2d1.lib d3d11.lib dxgi.lib dwrite.lib dxguid.lib xaudio2.lib xinput.lib mfcore.lib mfplat.lib mfreadwrite.lib mfuuid.lib kernel32.lib /MANIFEST:NO /DEBUG /PDB:"G:\SumoDX-master\x64\Debug\SumoDX\SumoDX.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /APPCONTAINER /WINMD:NO /WINMDFILE:"G:\SumoDX-master\x64\Debug\SumoDX\SumoDX.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X64 x64\Debug\BossMesh.obj
+         x64\Debug\BossBlock.obj
+         x64\Debug\Bullet.obj
+         x64\Debug\BulletMesh.obj
+         x64\Debug\AISumoBlock.obj
+         x64\Debug\Cylinder.obj
+         x64\Debug\CylinderMesh.obj
+         x64\Debug\MeshObject.obj
+         x64\Debug\SumoMesh.obj
+         x64\Debug\SumoBlock.obj
+         x64\Debug\GameInfoOverlay.obj
+         x64\Debug\BasicLoader.obj
+         x64\Debug\BasicReaderWriter.obj
+         x64\Debug\DDSTextureLoader.obj
+         x64\Debug\PersistentState.obj
+         x64\Debug\Camera.obj
+         x64\Debug\GameObject.obj
+         x64\Debug\GameTimer.obj
+         x64\Debug\Material.obj
+         x64\Debug\MoveLookController.obj
+         x64\Debug\DirectXApp.obj
+         x64\Debug\DirectXBase.obj
+         x64\Debug\GameHud.obj
+         x64\Debug\GameRenderer.obj
+         x64\Debug\SumoDX.obj
+         x64\Debug\pch.obj
+         SumoDX.vcxproj -> G:\SumoDX-master\x64\Debug\SumoDX\SumoDX.exe
+       _GenerateProjectPriFileCore:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x64\MakePri.exe New -ProjectRoot G:\SumoDX-master\ -ConfigXml x64\Debug\priconfig.xml -OutputFile G:\SumoDX-master\x64\Debug\SumoDX\resources.pri -IndexName SumoDX.CPP -Verbose -Overwrite  
+     1>C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\AppxPackage\Microsoft.AppXPackage.Targets(1093,9): warning APPX0104: Certificate file 'SumoDX_TemporaryKey.pfx' not found.
+     1>C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\AppxPackage\Microsoft.AppXPackage.Targets(1093,9): warning APPX0102: A certificate with thumbprint 'B364B5DC6152C7CFB90C1D8E193EBB020CAE30A8' that is specified in the project cannot be found in the certificate store. Please specify a valid thumbprint in the project file.
+     1>C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\AppxPackage\Microsoft.AppXPackage.Targets(1093,9): warning APPX0107: The certificate specified is not valid for signing. For more information about valid certificates, see http://go.microsoft.com/fwlink/?LinkID=241478.
+     1>Package.appxmanifest : error APPX0703: Manifest references file 'CubeWars.exe' which is not part of the payload.
+     1>Done Building Project "G:\SumoDX-master\SumoDX.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:17.67

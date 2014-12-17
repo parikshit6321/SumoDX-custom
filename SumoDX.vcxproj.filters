@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <FxCompile Include="Shaders\PixelShader.hlsl" />
+    <FxCompile Include="Shaders\PixelShaderFlat.hlsl" />
+    <FxCompile Include="Shaders\VertexShader.hlsl" />
+    <FxCompile Include="Shaders\VertexShaderFlat.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameObjects\AISumoBlock.cpp" />
+    <ClCompile Include="GameObjects\Cylinder.cpp" />
+    <ClCompile Include="Meshes\CylinderMesh.cpp" />
+    <ClCompile Include="Meshes\MeshObject.cpp" />
+    <ClCompile Include="Meshes\SumoMesh.cpp" />
+    <ClCompile Include="GameObjects\SumoBlock.cpp" />
+    <ClCompile Include="Utilities\BasicLoader.cpp" />
+    <ClCompile Include="Utilities\BasicReaderWriter.cpp" />
+    <ClCompile Include="Utilities\DDSTextureLoader.cpp" />
+    <ClCompile Include="Utilities\PersistentState.cpp" />
+    <ClCompile Include="GameObjects\Camera.cpp" />
+    <ClCompile Include="GameObjects\GameObject.cpp" />
+    <ClCompile Include="Utilities\GameTimer.cpp" />
+    <ClCompile Include="Rendering\Material.cpp" />
+    <ClCompile Include="Input\MoveLookController.cpp" />
+    <ClCompile Include="DirectXApp.cpp" />
+    <ClCompile Include="Rendering\DirectXBase.cpp" />
+    <ClCompile Include="Rendering\GameHud.cpp" />
+    <ClCompile Include="Rendering\GameRenderer.cpp" />
+    <ClCompile Include="SumoDX.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Meshes\BulletMesh.cpp" />
+    <ClCompile Include="GameObjects\Bullet.cpp" />
+    <ClCompile Include="GameObjects\BossBlock.cpp" />
+    <ClCompile Include="Meshes\BossMesh.cpp" />
+    <ClCompile Include="Rendering\GameInfoOverlay.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameObjects\AISumoBlock.h" />
+    <ClInclude Include="GameObjects\Cylinder.h" />
+    <ClInclude Include="Meshes\CylinderMesh.h" />
+    <ClInclude Include="Meshes\MeshObject.h" />
+    <ClInclude Include="Meshes\SumoMesh.h" />
+    <ClInclude Include="GameObjects\SumoBlock.h" />
+    <ClInclude Include="Utilities\BasicLoader.h" />
+    <ClInclude Include="Utilities\BasicMath.h" />
+    <ClInclude Include="Utilities\BasicReaderWriter.h" />
+    <ClInclude Include="Utilities\BasicShapes.h" />
+    <ClInclude Include="Utilities\DDSTextureLoader.h" />
+    <ClInclude Include="Utilities\DirectXSample.h" />
+    <ClInclude Include="Utilities\PersistentState.h" />
+    <ClInclude Include="GameObjects\Camera.h" />
+    <ClInclude Include="Rendering\ConstantBuffers.h" />
+    <ClInclude Include="GameObjects\GameConstants.h" />
+    <ClInclude Include="GameObjects\GameObject.h" />
+    <ClInclude Include="Utilities\GameTimer.h" />
+    <ClInclude Include="Rendering\Material.h" />
+    <ClInclude Include="Input\MoveLookController.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="DirectXApp.h" />
+    <ClInclude Include="Rendering\DirectXBase.h" />
+    <ClInclude Include="Rendering\GameHud.h" />
+    <ClInclude Include="Rendering\GameRenderer.h" />
+    <ClInclude Include="Rendering\GameInfoOverlay.h" />
+    <ClInclude Include="SumoDX.h" />
+    <ClInclude Include="Meshes\BulletMesh.h" />
+    <ClInclude Include="GameObjects\Bullet.h" />
+    <ClInclude Include="GameObjects\BossBlock.h" />
+    <ClInclude Include="Meshes\BossMesh.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\SumoBlue.dds" />
+    <Image Include="Resources\SumoRed.dds" />
+    <Image Include="Resources\windows-sdk.png" />
+    <Image Include="smallTile-sdk.scale-100.png" />
+    <Image Include="splash-sdk.scale-100.png" />
+    <Image Include="squareTile-sdk.scale-100.png" />
+    <Image Include="storeLogo-sdk.scale-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seafloor.dds" />
+    <None Include="Resources\cellceiling.dds" />
+    <None Include="Resources\cellfloor.dds" />
+    <None Include="Resources\cellwall.dds" />
+    <None Include="Resources\metal_texture.dds" />
+    <None Include="Resources\hit.wav" />
+    <None Include="Resources\bounce.wav" />
+    <None Include="Shaders\ConstantBuffers.hlsli" />
+    <None Include="SumoDX_TemporaryKey.pfx" />
+  </ItemGroup>
+</Project>

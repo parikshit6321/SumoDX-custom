@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>APHERALL</Machine>
+    <WindowsUser>Parikshit</WindowsUser>
+    <SolutionConfiguration>Debug|Win32</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>SumoDX.CPP</PackageIdentityName>
+    <RegisteredManifestChecksum>BE30B7075855C2902C2A35C8C5C97B0B07AFBC1C166392C7A6EB4BB35E28A5BF</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>SumoDX.CPP_1.0.0.0_x86__0zdfs9gyrmhby</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>SumoDX.CPP_0zdfs9gyrmhby!DirectXApplication.App</RegisteredUserModeAppID>
+    <RegisteredPackageID>SumoDX.CPP</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Parikshit</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="G:\SumoDX-master\Debug\SumoDX\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-27T10:42:02.545</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="G:\SumoDX-master\Debug\SumoDX\SumoDX.exe">
+      <PackagePath>SumoDX.exe</PackagePath>
+      <Modified>2014-10-27T10:42:02.244</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\SumoDX-master\Debug\SumoDX\PixelShader.cso">
+      <PackagePath>PixelShader.cso</PackagePath>
+      <Modified>2014-08-22T18:15:36.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\SumoDX-master\Debug\SumoDX\PixelShaderFlat.cso">
+      <PackagePath>PixelShaderFlat.cso</PackagePath>
+      <Modified>2014-08-22T18:15:36.527</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\SumoDX-master\Debug\SumoDX\VertexShader.cso">
+      <PackagePath>VertexShader.cso</PackagePath>
+      <Modified>2014-08-22T18:15:36.637</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\SumoDX-master\Debug\SumoDX\VertexShaderFlat.cso">
+      <PackagePath>VertexShaderFlat.cso</PackagePath>
+      <Modified>2014-08-22T18:15:36.777</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\SumoDX-master\Resources\SumoBlue.dds">
+      <PackagePath>Resources\SumoBlue.dds</PackagePath>
+      <Modified>2014-08-12T05:23:02.817</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\SumoDX-master\Resources\SumoRed.dds">
+      <PackagePath>Resources\SumoRed.dds</PackagePath>
+      <Modified>2014-08-12T05:23:02.864</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\SumoDX-master\Resources\seafloor.dds">
+      <PackagePath>Resources\seafloor.dds</PackagePath>
+      <Modified>2014-08-12T05:23:03.051</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\SumoDX-master\Resources\cellceiling.dds">
+      <PackagePath>Resources\cellceiling.dds</PackagePath>
+      <Modified>2014-08-12T05:23:02.911</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\SumoDX-master\Resources\cellfloor.dds">
+      <PackagePath>Resources\cellfloor.dds</PackagePath>
+      <Modified>2014-08-12T05:23:02.926</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\SumoDX-master\Resources\cellwall.dds">
+      <PackagePath>Resources\cellwall.dds</PackagePath>
+      <Modified>2014-08-12T05:23:02.942</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\SumoDX-master\Resources\metal_texture.dds">
+      <PackagePath>Resources\metal_texture.dds</PackagePath>
+      <Modified>2014-08-12T05:23:03.020</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\SumoDX-master\Resources\windows-sdk.png">
+      <PackagePath>Resources\windows-sdk.png</PackagePath>
+      <Modified>2014-08-12T05:23:03.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\SumoDX-master\smallTile-sdk.scale-100.png">
+      <PackagePath>smallTile-sdk.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-08-12T05:23:02.036</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\SumoDX-master\splash-sdk.scale-100.png">
+      <PackagePath>splash-sdk.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-08-12T05:23:02.051</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\SumoDX-master\squareTile-sdk.scale-100.png">
+      <PackagePath>squareTile-sdk.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-08-12T05:23:02.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\SumoDX-master\storeLogo-sdk.scale-100.png">
+      <PackagePath>storeLogo-sdk.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-08-12T05:23:02.098</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\SumoDX-master\Resources\hit.wav">
+      <PackagePath>Resources\hit.wav</PackagePath>
+      <Modified>2014-08-12T05:23:02.973</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\SumoDX-master\Resources\bounce.wav">
+      <PackagePath>Resources\bounce.wav</PackagePath>
+      <Modified>2014-08-12T05:23:02.880</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\SumoDX-master\Debug\SumoDX\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-10-27T10:33:46.119</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
